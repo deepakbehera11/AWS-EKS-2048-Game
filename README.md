@@ -14,6 +14,19 @@ Checkout my blog for step by step guide -> [Deploying the Classic 2048 Game on A
 
 See [installation.md](installation.md) for details.
 
+## Setting Up Your AWS Environment
+### Configuring AWS CLI
+```
+aws configure
+```
+You'll be prompted to enter:
+
+AWS Access Key ID ~ Your Access Key
+
+AWS Secret Access Key ~ Your Secret Access Key
+
+Default region (e.g., us-east-1)
+
 ## 1. Create the EKS Cluster Using Fargate
 
 ```sh
