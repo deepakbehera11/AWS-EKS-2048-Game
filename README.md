@@ -1,6 +1,13 @@
 # AWS-EKS-2048-Game
 
-This repository provides step-by-step instructions to deploy the classic 2048 game on AWS Elastic Kubernetes Service (EKS) using Fargate and the AWS Load Balancer Controller.
+Deployed an open-source 2048 game application to Amazon EKS using AWS Fargate for serverless compute
+ management.
+ Configured IAM roles, OIDC provider, and service accounts to securely integrate the AWS Load Balancer Controller
+ with Kubernetes.
+ Set up ALB ingress controller to manage external HTTPS traffic routing via Ingress resources.
+ Installed and configured Helm to deploy the ALB controller and expose the application via Ingress, enabling external
+ HTTP access through an ALB.
+
 
 Checkout my blog for step by step guide -> [Deploying the Classic 2048 Game on AWS EKS](https://deepakbehera.hashnode.dev/deploying-the-classic-2048-game-on-aws-elastic-kubernetes-service-eks).
 
